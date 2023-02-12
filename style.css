@@ -1,0 +1,108 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #f2f0ff;
+    height: 100vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 20px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header nav img{
+    width: 120px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items :center;
+    list-style: none;
+    width: 20%;
+}
+
+li{
+    display: list-item;
+}
+
+header nav ul a{
+    color: #0d6efd;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.boutton{
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #0d6efd;
+}
+
+header .infos{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .infos .info{
+    padding-left: 2%;
+    width: 50%;
+}
+
+header .infos .info h1{
+    font-size: 40px;
+    color: #212529;
+}
+
+header .infos .info p{
+    font-size: 20px;
+    color: #212529;
+    margin: 10px;
+    line-height: 2;
+}
+
+header .infos .info div{
+    margin-top: 40px;
+}
+
+header .infos .info input:first-child{
+    width: 52%;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: white;
+    border-radius: 5px;
+}
+
+header .infos .info input{
+    padding: 25px;
+    font-size: 20px;
+}
+
+header .infos .info input:nth-child(2){
+    width: 40%;
+    border: none;
+}
+
+header .infos .imageInfo{
+    width: 40%;
+}
+
+header .infos .imageInfo img{
+    width: 100%;
+}
+
